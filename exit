@@ -1,0 +1,1183 @@
+ls.asm:22:  for(p=path+strlen(path); p >= path && *p != '/'; p--)
+ls.asm:1277:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+ls.asm:1281:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+ls.asm:1298:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+ls.asm:1309:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+ls.asm:1311:  if(bp + bp->s.size == p->s.ptr){
+ls.asm:1321:    bp->s.size += p->s.ptr->s.size;
+ls.asm:1330:    bp->s.ptr = p->s.ptr->s.ptr;
+ls.asm:1338:    bp->s.ptr = p->s.ptr;
+ls.asm:1343:  if(p + p->s.size == bp){
+ls.asm:1351:    p->s.size += bp->s.size;
+ls.asm:1359:    p->s.ptr = bp->s.ptr;
+ls.asm:1366:    p->s.ptr = bp;
+ls.asm:1411:  hp->s.size = nu;
+ls.asm:1460:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+ls.asm:1464:    if(p->s.size >= nunits){
+ls.asm:1469:      if(p->s.size == nunits)
+ls.asm:1474:        prevp->s.ptr = p->s.ptr;
+ls.asm:1481:        p->s.size -= nunits;
+ls.asm:1488:        p += p->s.size;
+ls.asm:1493:        p->s.size = nunits;
+ls.asm:1526:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+log.c:207://   modify bp->data[]
+usertests.asm:10:// does chdir() call iput(p->cwd) in a transaction?
+usertests.asm:107:// does exit() call iput(p->cwd) in a transaction?
+usertests.asm:7710:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+usertests.asm:7714:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+usertests.asm:7731:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+usertests.asm:7742:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+usertests.asm:7744:  if(bp + bp->s.size == p->s.ptr){
+usertests.asm:7754:    bp->s.size += p->s.ptr->s.size;
+usertests.asm:7763:    bp->s.ptr = p->s.ptr->s.ptr;
+usertests.asm:7771:    bp->s.ptr = p->s.ptr;
+usertests.asm:7776:  if(p + p->s.size == bp){
+usertests.asm:7784:    p->s.size += bp->s.size;
+usertests.asm:7792:    p->s.ptr = bp->s.ptr;
+usertests.asm:7799:    p->s.ptr = bp;
+usertests.asm:7844:  hp->s.size = nu;
+usertests.asm:7893:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+usertests.asm:7897:    if(p->s.size >= nunits){
+usertests.asm:7902:      if(p->s.size == nunits)
+usertests.asm:7907:        prevp->s.ptr = p->s.ptr;
+usertests.asm:7914:        p->s.size -= nunits;
+usertests.asm:7921:        p += p->s.size;
+usertests.asm:7926:        p->s.size = nunits;
+usertests.asm:7959:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test4.asm:1114:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test4.asm:1118:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test4.asm:1135:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test4.asm:1146:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test4.asm:1148:  if(bp + bp->s.size == p->s.ptr){
+test4.asm:1158:    bp->s.size += p->s.ptr->s.size;
+test4.asm:1167:    bp->s.ptr = p->s.ptr->s.ptr;
+test4.asm:1175:    bp->s.ptr = p->s.ptr;
+test4.asm:1180:  if(p + p->s.size == bp){
+test4.asm:1188:    p->s.size += bp->s.size;
+test4.asm:1196:    p->s.ptr = bp->s.ptr;
+test4.asm:1203:    p->s.ptr = bp;
+test4.asm:1248:  hp->s.size = nu;
+test4.asm:1297:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test4.asm:1301:    if(p->s.size >= nunits){
+test4.asm:1306:      if(p->s.size == nunits)
+test4.asm:1311:        prevp->s.ptr = p->s.ptr;
+test4.asm:1318:        p->s.size -= nunits;
+test4.asm:1325:        p += p->s.size;
+test4.asm:1330:        p->s.size = nunits;
+test4.asm:1363:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+init.asm:1005:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+init.asm:1009:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+init.asm:1026:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+init.asm:1037:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+init.asm:1039:  if(bp + bp->s.size == p->s.ptr){
+init.asm:1049:    bp->s.size += p->s.ptr->s.size;
+init.asm:1058:    bp->s.ptr = p->s.ptr->s.ptr;
+init.asm:1066:    bp->s.ptr = p->s.ptr;
+init.asm:1071:  if(p + p->s.size == bp){
+init.asm:1079:    p->s.size += bp->s.size;
+init.asm:1087:    p->s.ptr = bp->s.ptr;
+init.asm:1094:    p->s.ptr = bp;
+init.asm:1139:  hp->s.size = nu;
+init.asm:1188:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+init.asm:1192:    if(p->s.size >= nunits){
+init.asm:1197:      if(p->s.size == nunits)
+init.asm:1202:        prevp->s.ptr = p->s.ptr;
+init.asm:1209:        p->s.size -= nunits;
+init.asm:1216:        p += p->s.size;
+init.asm:1221:        p->s.size = nunits;
+init.asm:1254:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test1.asm:1006:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test1.asm:1010:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test1.asm:1027:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test1.asm:1038:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test1.asm:1040:  if(bp + bp->s.size == p->s.ptr){
+test1.asm:1050:    bp->s.size += p->s.ptr->s.size;
+test1.asm:1059:    bp->s.ptr = p->s.ptr->s.ptr;
+test1.asm:1067:    bp->s.ptr = p->s.ptr;
+test1.asm:1072:  if(p + p->s.size == bp){
+test1.asm:1080:    p->s.size += bp->s.size;
+test1.asm:1088:    p->s.ptr = bp->s.ptr;
+test1.asm:1095:    p->s.ptr = bp;
+test1.asm:1140:  hp->s.size = nu;
+test1.asm:1189:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test1.asm:1193:    if(p->s.size >= nunits){
+test1.asm:1198:      if(p->s.size == nunits)
+test1.asm:1203:        prevp->s.ptr = p->s.ptr;
+test1.asm:1210:        p->s.size -= nunits;
+test1.asm:1217:        p += p->s.size;
+test1.asm:1222:        p->s.size = nunits;
+test1.asm:1255:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test3.asm:1141:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test3.asm:1145:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test3.asm:1162:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test3.asm:1173:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test3.asm:1175:  if(bp + bp->s.size == p->s.ptr){
+test3.asm:1185:    bp->s.size += p->s.ptr->s.size;
+test3.asm:1194:    bp->s.ptr = p->s.ptr->s.ptr;
+test3.asm:1202:    bp->s.ptr = p->s.ptr;
+test3.asm:1207:  if(p + p->s.size == bp){
+test3.asm:1215:    p->s.size += bp->s.size;
+test3.asm:1223:    p->s.ptr = bp->s.ptr;
+test3.asm:1230:    p->s.ptr = bp;
+test3.asm:1275:  hp->s.size = nu;
+test3.asm:1324:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test3.asm:1328:    if(p->s.size >= nunits){
+test3.asm:1333:      if(p->s.size == nunits)
+test3.asm:1338:        prevp->s.ptr = p->s.ptr;
+test3.asm:1345:        p->s.size -= nunits;
+test3.asm:1352:        p += p->s.size;
+test3.asm:1357:        p->s.size = nunits;
+test3.asm:1390:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+Binary file kernel matches
+Notes:95:blocks and inodes have ad-hoc sleep-locks
+test6.asm:1131:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test6.asm:1135:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test6.asm:1152:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test6.asm:1163:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test6.asm:1165:  if(bp + bp->s.size == p->s.ptr){
+test6.asm:1175:    bp->s.size += p->s.ptr->s.size;
+test6.asm:1184:    bp->s.ptr = p->s.ptr->s.ptr;
+test6.asm:1192:    bp->s.ptr = p->s.ptr;
+test6.asm:1197:  if(p + p->s.size == bp){
+test6.asm:1205:    p->s.size += bp->s.size;
+test6.asm:1213:    p->s.ptr = bp->s.ptr;
+test6.asm:1220:    p->s.ptr = bp;
+test6.asm:1265:  hp->s.size = nu;
+test6.asm:1314:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test6.asm:1318:    if(p->s.size >= nunits){
+test6.asm:1323:      if(p->s.size == nunits)
+test6.asm:1328:        prevp->s.ptr = p->s.ptr;
+test6.asm:1335:        p->s.size -= nunits;
+test6.asm:1342:        p += p->s.size;
+test6.asm:1347:        p->s.size = nunits;
+test6.asm:1380:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+echo.asm:965:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+echo.asm:969:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+echo.asm:986:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+echo.asm:997:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+echo.asm:999:  if(bp + bp->s.size == p->s.ptr){
+echo.asm:1009:    bp->s.size += p->s.ptr->s.size;
+echo.asm:1018:    bp->s.ptr = p->s.ptr->s.ptr;
+echo.asm:1026:    bp->s.ptr = p->s.ptr;
+echo.asm:1031:  if(p + p->s.size == bp){
+echo.asm:1039:    p->s.size += bp->s.size;
+echo.asm:1047:    p->s.ptr = bp->s.ptr;
+echo.asm:1054:    p->s.ptr = bp;
+echo.asm:1099:  hp->s.size = nu;
+echo.asm:1148:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+echo.asm:1152:    if(p->s.size >= nunits){
+echo.asm:1157:      if(p->s.size == nunits)
+echo.asm:1162:        prevp->s.ptr = p->s.ptr;
+echo.asm:1169:        p->s.size -= nunits;
+echo.asm:1176:        p += p->s.size;
+echo.asm:1181:        p->s.size = nunits;
+echo.asm:1214:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+zombie.asm:937:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+zombie.asm:941:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+zombie.asm:958:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+zombie.asm:969:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+zombie.asm:971:  if(bp + bp->s.size == p->s.ptr){
+zombie.asm:981:    bp->s.size += p->s.ptr->s.size;
+zombie.asm:990:    bp->s.ptr = p->s.ptr->s.ptr;
+zombie.asm:998:    bp->s.ptr = p->s.ptr;
+zombie.asm:1003:  if(p + p->s.size == bp){
+zombie.asm:1011:    p->s.size += bp->s.size;
+zombie.asm:1019:    p->s.ptr = bp->s.ptr;
+zombie.asm:1026:    p->s.ptr = bp;
+zombie.asm:1071:  hp->s.size = nu;
+zombie.asm:1120:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+zombie.asm:1124:    if(p->s.size >= nunits){
+zombie.asm:1129:      if(p->s.size == nunits)
+zombie.asm:1134:        prevp->s.ptr = p->s.ptr;
+zombie.asm:1141:        p->s.size -= nunits;
+zombie.asm:1148:        p += p->s.size;
+zombie.asm:1153:        p->s.size = nunits;
+zombie.asm:1186:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+TRICKS:21:at that point, cp->tf is set to point to a trap frame
+TRICKS:118:The code in fork needs to read np->pid before
+TRICKS:119:setting np->state to RUNNABLE.  The following
+TRICKS:126:	  np->state = RUNNABLE;
+TRICKS:127:	  return np->pid; // oops
+TRICKS:130:After setting np->state to RUNNABLE, some other CPU
+TRICKS:134:"return np->pid". Even saving a copy of np->pid before
+TRICKS:135:setting np->state isn't safe, since the compiler is
+TRICKS:138:The real code saves a copy of np->pid, then acquires a lock
+TRICKS:139:around the write to np->state. The acquire() prevents the
+usertests.c:16:// does chdir() call iput(p->cwd) in a transaction?
+usertests.c:41:// does exit() call iput(p->cwd) in a transaction?
+Binary file proc.o matches
+kill.asm:972:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+kill.asm:976:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+kill.asm:993:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+kill.asm:1004:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+kill.asm:1006:  if(bp + bp->s.size == p->s.ptr){
+kill.asm:1016:    bp->s.size += p->s.ptr->s.size;
+kill.asm:1025:    bp->s.ptr = p->s.ptr->s.ptr;
+kill.asm:1033:    bp->s.ptr = p->s.ptr;
+kill.asm:1038:  if(p + p->s.size == bp){
+kill.asm:1046:    p->s.size += bp->s.size;
+kill.asm:1054:    p->s.ptr = bp->s.ptr;
+kill.asm:1061:    p->s.ptr = bp;
+kill.asm:1106:  hp->s.size = nu;
+kill.asm:1155:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+kill.asm:1159:    if(p->s.size >= nunits){
+kill.asm:1164:      if(p->s.size == nunits)
+kill.asm:1169:        prevp->s.ptr = p->s.ptr;
+kill.asm:1176:        p->s.size -= nunits;
+kill.asm:1183:        p += p->s.size;
+kill.asm:1188:        p->s.size = nunits;
+kill.asm:1221:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+fs.c:34:  memmove(sb, bp->data, sizeof(*sb));
+fs.c:45:  memset(bp->data, 0, BSIZE);
+fs.c:64:      if((bp->data[bi/8] & m) == 0){  // Is block free?
+fs.c:65:        bp->data[bi/8] |= m;  // Mark block in use.
+fs.c:88:  if((bp->data[bi/8] & m) == 0)
+fs.c:90:  bp->data[bi/8] &= ~m;
+fs.c:110:// not stored on disk: ip->ref and ip->flags.
+fs.c:121://   is free if ip->ref is zero. Otherwise ip->ref tracks
+fs.c:129://   is set in ip->flags. ilock() reads the inode from
+fs.c:131://   I_VALID if ip->ref has fallen to zero.
+fs.c:142://   ... examine and modify ip->xxx ...
+fs.c:150:// pathname lookup. iget() increments ip->ref so that the inode
+fs.c:183:    dip = (struct dinode*)bp->data + inum%IPB;
+fs.c:184:    if(dip->type == 0){  // a free inode
+fs.c:186:      dip->type = type;
+fs.c:203:  bp = bread(ip->dev, IBLOCK(ip->inum, sb));
+fs.c:204:  dip = (struct dinode*)bp->data + ip->inum%IPB;
+fs.c:205:  dip->type = ip->type;
+fs.c:206:  dip->major = ip->major;
+fs.c:207:  dip->minor = ip->minor;
+fs.c:208:  dip->nlink = ip->nlink;
+fs.c:209:  dip->size = ip->size;
+fs.c:210:  memmove(dip->addrs, ip->addrs, sizeof(ip->addrs));
+fs.c:228:    if(ip->ref > 0 && ip->dev == dev && ip->inum == inum){
+fs.c:229:      ip->ref++;
+fs.c:233:    if(empty == 0 && ip->ref == 0)    // Remember empty slot.
+fs.c:242:  ip->dev = dev;
+fs.c:243:  ip->inum = inum;
+fs.c:244:  ip->ref = 1;
+fs.c:245:  ip->flags = 0;
+fs.c:257:  ip->ref++;
+fs.c:270:  if(ip == 0 || ip->ref < 1)
+fs.c:274:  while(ip->flags & I_BUSY)
+fs.c:276:  ip->flags |= I_BUSY;
+fs.c:279:  if(!(ip->flags & I_VALID)){
+fs.c:280:    bp = bread(ip->dev, IBLOCK(ip->inum, sb));
+fs.c:281:    dip = (struct dinode*)bp->data + ip->inum%IPB;
+fs.c:282:    ip->type = dip->type;
+fs.c:283:    ip->major = dip->major;
+fs.c:284:    ip->minor = dip->minor;
+fs.c:285:    ip->nlink = dip->nlink;
+fs.c:286:    ip->size = dip->size;
+fs.c:287:    memmove(ip->addrs, dip->addrs, sizeof(ip->addrs));
+fs.c:289:    ip->flags |= I_VALID;
+fs.c:290:    if(ip->type == 0)
+fs.c:299:  if(ip == 0 || !(ip->flags & I_BUSY) || ip->ref < 1)
+fs.c:303:  ip->flags &= ~I_BUSY;
+fs.c:319:  if(ip->ref == 1 && (ip->flags & I_VALID) && ip->nlink == 0){
+fs.c:321:    if(ip->flags & I_BUSY)
+fs.c:323:    ip->flags |= I_BUSY;
+fs.c:326:    ip->type = 0;
+fs.c:329:    ip->flags = 0;
+fs.c:332:  ip->ref--;
+fs.c:349:// are listed in ip->addrs[].  The next NINDIRECT blocks are 
+fs.c:350:// listed in block ip->addrs[NDIRECT].
+fs.c:361:    if((addr = ip->addrs[bn]) == 0)
+fs.c:362:      ip->addrs[bn] = addr = balloc(ip->dev);
+fs.c:369:    if((addr = ip->addrs[NDIRECT]) == 0)
+fs.c:370:      ip->addrs[NDIRECT] = addr = balloc(ip->dev);
+fs.c:371:    bp = bread(ip->dev, addr);
+fs.c:372:    a = (uint*)bp->data;
+fs.c:374:      a[bn] = addr = balloc(ip->dev);
+fs.c:397:    if(ip->addrs[i]){
+fs.c:398:      bfree(ip->dev, ip->addrs[i]);
+fs.c:399:      ip->addrs[i] = 0;
+fs.c:403:  if(ip->addrs[NDIRECT]){
+fs.c:404:    bp = bread(ip->dev, ip->addrs[NDIRECT]);
+fs.c:405:    a = (uint*)bp->data;
+fs.c:408:        bfree(ip->dev, a[j]);
+fs.c:411:    bfree(ip->dev, ip->addrs[NDIRECT]);
+fs.c:412:    ip->addrs[NDIRECT] = 0;
+fs.c:415:  ip->size = 0;
+fs.c:423:  st->dev = ip->dev;
+fs.c:424:  st->ino = ip->inum;
+fs.c:425:  st->type = ip->type;
+fs.c:426:  st->nlink = ip->nlink;
+fs.c:427:  st->size = ip->size;
+fs.c:438:  if(ip->type == T_DEV){
+fs.c:439:    if(ip->major < 0 || ip->major >= NDEV || !devsw[ip->major].read)
+fs.c:441:    return devsw[ip->major].read(ip, dst, n);
+fs.c:444:  if(off > ip->size || off + n < off)
+fs.c:446:  if(off + n > ip->size)
+fs.c:447:    n = ip->size - off;
+fs.c:450:    bp = bread(ip->dev, bmap(ip, off/BSIZE));
+fs.c:452:    memmove(dst, bp->data + off%BSIZE, m);
+fs.c:466:  if(ip->type == T_DEV){
+fs.c:467:    if(ip->major < 0 || ip->major >= NDEV || !devsw[ip->major].write)
+fs.c:469:    return devsw[ip->major].write(ip, src, n);
+fs.c:472:  if(off > ip->size || off + n < off)
+fs.c:478:    bp = bread(ip->dev, bmap(ip, off/BSIZE));
+fs.c:480:    memmove(bp->data + off%BSIZE, src, m);
+fs.c:485:  if(n > 0 && off > ip->size){
+fs.c:486:    ip->size = off;
+fs.c:509:  if(dp->type != T_DIR)
+fs.c:512:  for(off = 0; off < dp->size; off += sizeof(de)){
+fs.c:522:      return iget(dp->dev, inum);
+fs.c:544:  for(off = 0; off < dp->size; off += sizeof(de)){
+fs.c:615:    if(ip->type != T_DIR){
+mkdir.asm:989:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+mkdir.asm:993:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+mkdir.asm:1010:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+mkdir.asm:1021:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+mkdir.asm:1023:  if(bp + bp->s.size == p->s.ptr){
+mkdir.asm:1033:    bp->s.size += p->s.ptr->s.size;
+mkdir.asm:1042:    bp->s.ptr = p->s.ptr->s.ptr;
+mkdir.asm:1050:    bp->s.ptr = p->s.ptr;
+mkdir.asm:1055:  if(p + p->s.size == bp){
+mkdir.asm:1063:    p->s.size += bp->s.size;
+mkdir.asm:1071:    p->s.ptr = bp->s.ptr;
+mkdir.asm:1078:    p->s.ptr = bp;
+mkdir.asm:1123:  hp->s.size = nu;
+mkdir.asm:1172:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+mkdir.asm:1176:    if(p->s.size >= nunits){
+mkdir.asm:1181:      if(p->s.size == nunits)
+mkdir.asm:1186:        prevp->s.ptr = p->s.ptr;
+mkdir.asm:1193:        p->s.size -= nunits;
+mkdir.asm:1200:        p += p->s.size;
+mkdir.asm:1205:        p->s.size = nunits;
+mkdir.asm:1238:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+rm.asm:989:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+rm.asm:993:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+rm.asm:1010:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+rm.asm:1021:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+rm.asm:1023:  if(bp + bp->s.size == p->s.ptr){
+rm.asm:1033:    bp->s.size += p->s.ptr->s.size;
+rm.asm:1042:    bp->s.ptr = p->s.ptr->s.ptr;
+rm.asm:1050:    bp->s.ptr = p->s.ptr;
+rm.asm:1055:  if(p + p->s.size == bp){
+rm.asm:1063:    p->s.size += bp->s.size;
+rm.asm:1071:    p->s.ptr = bp->s.ptr;
+rm.asm:1078:    p->s.ptr = bp;
+rm.asm:1123:  hp->s.size = nu;
+rm.asm:1172:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+rm.asm:1176:    if(p->s.size >= nunits){
+rm.asm:1181:      if(p->s.size == nunits)
+rm.asm:1186:        prevp->s.ptr = p->s.ptr;
+rm.asm:1193:        p->s.size -= nunits;
+rm.asm:1200:        p += p->s.size;
+rm.asm:1205:        p->s.size = nunits;
+rm.asm:1238:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test5.asm:1116:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test5.asm:1120:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test5.asm:1137:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test5.asm:1148:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test5.asm:1150:  if(bp + bp->s.size == p->s.ptr){
+test5.asm:1160:    bp->s.size += p->s.ptr->s.size;
+test5.asm:1169:    bp->s.ptr = p->s.ptr->s.ptr;
+test5.asm:1177:    bp->s.ptr = p->s.ptr;
+test5.asm:1182:  if(p + p->s.size == bp){
+test5.asm:1190:    p->s.size += bp->s.size;
+test5.asm:1198:    p->s.ptr = bp->s.ptr;
+test5.asm:1205:    p->s.ptr = bp;
+test5.asm:1250:  hp->s.size = nu;
+test5.asm:1299:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test5.asm:1303:    if(p->s.size >= nunits){
+test5.asm:1308:      if(p->s.size == nunits)
+test5.asm:1313:        prevp->s.ptr = p->s.ptr;
+test5.asm:1320:        p->s.size -= nunits;
+test5.asm:1327:        p += p->s.size;
+test5.asm:1332:        p->s.size = nunits;
+test5.asm:1365:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+vm.c:175:  if(p->pgdir == 0)
+vm.c:177:  lcr3(v2p(p->pgdir));  // switch to new address space
+kernel.asm:2505:  memmove(sb, bp->data, sizeof(*sb));
+kernel.asm:2544:  memset(bp->data, 0, BSIZE);
+kernel.asm:2616:      if((bp->data[bi/8] & m) == 0){  // Is block free?
+kernel.asm:2629:        bp->data[bi/8] |= m;  // Mark block in use.
+kernel.asm:2765:  if((bp->data[bi/8] & m) == 0)
+kernel.asm:2782:  bp->data[bi/8] &= ~m;
+kernel.asm:2870:    dip = (struct dinode*)bp->data + inum%IPB;
+kernel.asm:2878:    if(dip->type == 0){  // a free inode
+kernel.asm:2890:      dip->type = type;
+kernel.asm:2954:  bp = bread(ip->dev, IBLOCK(ip->inum, sb));
+kernel.asm:2969:  dip = (struct dinode*)bp->data + ip->inum%IPB;
+kernel.asm:2978:  dip->type = ip->type;
+kernel.asm:2983:  dip->major = ip->major;
+kernel.asm:2988:  dip->minor = ip->minor;
+kernel.asm:2993:  dip->nlink = ip->nlink;
+kernel.asm:2998:  dip->size = ip->size;
+kernel.asm:3003:  memmove(dip->addrs, ip->addrs, sizeof(ip->addrs));
+kernel.asm:3053:    if(ip->ref > 0 && ip->dev == dev && ip->inum == inum){
+kernel.asm:3066:      ip->ref++;
+kernel.asm:3081:    if(empty == 0 && ip->ref == 0)    // Remember empty slot.
+kernel.asm:3100:    if(empty == 0 && ip->ref == 0)    // Remember empty slot.
+kernel.asm:3116:  ip->dev = dev;
+kernel.asm:3120:  ip->inum = inum;
+kernel.asm:3124:  ip->ref = 1;
+kernel.asm:3127:  ip->flags = 0;
+kernel.asm:3157:  ip->ref++;
+kernel.asm:3187:  if(ip == 0 || ip->ref < 1)
+kernel.asm:3204:  while(ip->flags & I_BUSY)
+kernel.asm:3213:  if(ip == 0 || ip->ref < 1)
+kernel.asm:3217:  while(ip->flags & I_BUSY)
+kernel.asm:3224:  ip->flags |= I_BUSY;
+kernel.asm:3237:  if(!(ip->flags & I_VALID)){
+kernel.asm:3243:    bp = bread(ip->dev, IBLOCK(ip->inum, sb));
+kernel.asm:3258:    dip = (struct dinode*)bp->data + ip->inum%IPB;
+kernel.asm:3267:    ip->type = dip->type;
+kernel.asm:3272:    ip->major = dip->major;
+kernel.asm:3277:    ip->minor = dip->minor;
+kernel.asm:3282:    ip->nlink = dip->nlink;
+kernel.asm:3287:    ip->size = dip->size;
+kernel.asm:3292:    memmove(ip->addrs, dip->addrs, sizeof(ip->addrs));
+kernel.asm:3308:    ip->flags |= I_VALID;
+kernel.asm:3315:    if(ip->type == 0)
+kernel.asm:3339:  if(ip == 0 || !(ip->flags & I_BUSY) || ip->ref < 1)
+kernel.asm:3361:  ip->flags &= ~I_BUSY;
+kernel.asm:3398:  if(ip->ref == 1 && (ip->flags & I_VALID) && ip->nlink == 0){
+kernel.asm:3413:    if(ip->flags & I_BUSY)
+kernel.asm:3423:    ip->flags |= I_BUSY;
+kernel.asm:3440:    ip->type = 0;
+kernel.asm:3453:    ip->flags = 0;
+kernel.asm:3462:  ip->ref--;
+kernel.asm:3519:    if((addr = ip->addrs[bn]) == 0)
+kernel.asm:3527:      ip->addrs[bn] = addr = balloc(ip->dev);
+kernel.asm:3551:    if((addr = ip->addrs[NDIRECT]) == 0)
+kernel.asm:3557:      ip->addrs[NDIRECT] = addr = balloc(ip->dev);
+kernel.asm:3568:    bp = bread(ip->dev, addr);
+kernel.asm:3577:    a = (uint*)bp->data;
+kernel.asm:3590:      a[bn] = addr = balloc(ip->dev);
+kernel.asm:3646:    if(ip->addrs[i]){
+kernel.asm:3653:      bfree(ip->dev, ip->addrs[i]);
+kernel.asm:3665:      ip->addrs[i] = 0;
+kernel.asm:3680:      bfree(ip->dev, ip->addrs[i]);
+kernel.asm:3681:      ip->addrs[i] = 0;
+kernel.asm:3685:  if(ip->addrs[NDIRECT]){
+kernel.asm:3690:    bp = bread(ip->dev, ip->addrs[NDIRECT]);
+kernel.asm:3701:    a = (uint*)bp->data;
+kernel.asm:3716:        bfree(ip->dev, a[j]);
+kernel.asm:3731:  if(ip->addrs[NDIRECT]){
+kernel.asm:3732:    bp = bread(ip->dev, ip->addrs[NDIRECT]);
+kernel.asm:3733:    a = (uint*)bp->data;
+kernel.asm:3740:        bfree(ip->dev, a[j]);
+kernel.asm:3747:    bfree(ip->dev, ip->addrs[NDIRECT]);
+kernel.asm:3757:    ip->addrs[NDIRECT] = 0;
+kernel.asm:3762:  ip->size = 0;
+kernel.asm:3783:  st->dev = ip->dev;
+kernel.asm:3789:  st->ino = ip->inum;
+kernel.asm:3794:  st->type = ip->type;
+kernel.asm:3799:  st->nlink = ip->nlink;
+kernel.asm:3804:  st->size = ip->size;
+kernel.asm:3827:  if(ip->type == T_DEV){
+kernel.asm:3832:    if(ip->major < 0 || ip->major >= NDEV || !devsw[ip->major].read)
+kernel.asm:3850:    return devsw[ip->major].read(ip, dst, n);
+kernel.asm:3865:  if(off > ip->size || off + n < off)
+kernel.asm:3878:  if(off + n > ip->size)
+kernel.asm:3886:    n = ip->size - off;
+kernel.asm:3895:    bp = bread(ip->dev, bmap(ip, off/BSIZE));
+kernel.asm:3922:    memmove(dst, bp->data + off%BSIZE, m);
+kernel.asm:3939:  if(off > ip->size || off + n < off)
+kernel.asm:3941:  if(off + n > ip->size)
+kernel.asm:3942:    n = ip->size - off;
+kernel.asm:3954:    bp = bread(ip->dev, bmap(ip, off/BSIZE));
+kernel.asm:3956:    memmove(dst, bp->data + off%BSIZE, m);
+kernel.asm:3978:  if(ip->type == T_DEV){
+kernel.asm:3983:    if(ip->major < 0 || ip->major >= NDEV || !devsw[ip->major].write)
+kernel.asm:4001:    return devsw[ip->major].write(ip, src, n);
+kernel.asm:4016:  if(off > ip->size || off + n < off)
+kernel.asm:4042:    bp = bread(ip->dev, bmap(ip, off/BSIZE));
+kernel.asm:4069:    memmove(bp->data + off%BSIZE, src, m);
+kernel.asm:4091:  if(off > ip->size || off + n < off)
+kernel.asm:4106:    memmove(bp->data + off%BSIZE, src, m);
+kernel.asm:4111:  if(n > 0 && off > ip->size){
+kernel.asm:4118:    ip->size = off;
+kernel.asm:4168:  if(dp->type != T_DIR)
+kernel.asm:4178:  for(off = 0; off < dp->size; off += sizeof(de)){
+kernel.asm:4222:      return iget(dp->dev, inum);
+kernel.asm:4232:  for(off = 0; off < dp->size; off += sizeof(de)){
+kernel.asm:4240:  if(dp->type != T_DIR)
+kernel.asm:4243:  for(off = 0; off < dp->size; off += sizeof(de)){
+kernel.asm:4250:      return iget(dp->dev, inum);
+kernel.asm:4295:  for(off = 0; off < dp->size; off += sizeof(de)){
+kernel.asm:4322:  for(off = 0; off < dp->size; off += sizeof(de)){
+kernel.asm:4526:    if(ip->type != T_DIR){
+kernel.asm:7117://   modify bp->data[]
+kernel.asm:7722:    if((mp = mpsearch1(p-1024, 1024)))
+kernel.asm:7760:  if((mp = mpsearch()) == 0 || mp->physaddr == 0)
+kernel.asm:7772:  conf = (struct mpconf*) p2v((uint) mp->physaddr);
+kernel.asm:7995:  if(mp->imcrp){
+kernel.asm:8286:  p->readopen = 1;
+kernel.asm:8290:  p->writeopen = 1;
+kernel.asm:8294:  p->nwrite = 0;
+kernel.asm:8298:  p->nread = 0;
+kernel.asm:8302:  initlock(&p->lock, "pipe");
+kernel.asm:8404:  acquire(&p->lock);
+kernel.asm:8413:    p->writeopen = 0;
+kernel.asm:8417:    wakeup(&p->nread);
+kernel.asm:8426:    p->readopen = 0;
+kernel.asm:8430:    wakeup(&p->nwrite);
+kernel.asm:8438:  if(p->readopen == 0 && p->writeopen == 0){
+kernel.asm:8447:    release(&p->lock);
+kernel.asm:8460:    release(&p->lock);
+kernel.asm:8482:  acquire(&p->lock);
+kernel.asm:8491:    while(p->nwrite == p->nread + PIPESIZE){  //DOC: pipewrite-full
+kernel.asm:8492:      if(p->readopen == 0 || proc->killed){
+kernel.asm:8501:        release(&p->lock);
+kernel.asm:8511:      wakeup(&p->nread);
+kernel.asm:8518:      sleep(&p->nwrite, &p->lock);  //DOC: pipewrite-sleep
+kernel.asm:8530:  acquire(&p->lock);
+kernel.asm:8532:    while(p->nwrite == p->nread + PIPESIZE){  //DOC: pipewrite-full
+kernel.asm:8542:      wakeup(&p->nread);
+kernel.asm:8543:      sleep(&p->nwrite, &p->lock);  //DOC: pipewrite-sleep
+kernel.asm:8545:    p->data[p->nwrite++ % PIPESIZE] = addr[i];
+kernel.asm:8563:  acquire(&p->lock);
+kernel.asm:8569:      wakeup(&p->nread);
+kernel.asm:8570:      sleep(&p->nwrite, &p->lock);  //DOC: pipewrite-sleep
+kernel.asm:8572:    p->data[p->nwrite++ % PIPESIZE] = addr[i];
+kernel.asm:8574:  wakeup(&p->nread);  //DOC: pipewrite-wakeup1
+kernel.asm:8581:  release(&p->lock);
+kernel.asm:8604:  acquire(&p->lock);
+kernel.asm:8610:  while(p->nread == p->nwrite && p->writeopen){  //DOC: pipe-empty
+kernel.asm:8617:      release(&p->lock);
+kernel.asm:8627:    sleep(&p->nread, &p->lock); //DOC: piperead-sleep
+kernel.asm:8640:  acquire(&p->lock);
+kernel.asm:8641:  while(p->nread == p->nwrite && p->writeopen){  //DOC: pipe-empty
+kernel.asm:8652:      release(&p->lock);
+kernel.asm:8655:    sleep(&p->nread, &p->lock); //DOC: piperead-sleep
+kernel.asm:8660:    if(p->nread == p->nwrite)
+kernel.asm:8668:    addr[i] = p->data[p->nread++ % PIPESIZE];
+kernel.asm:8682:      release(&p->lock);
+kernel.asm:8685:    sleep(&p->nread, &p->lock); //DOC: piperead-sleep
+kernel.asm:8693:    if(p->nread == p->nwrite)
+kernel.asm:8696:    addr[i] = p->data[p->nread++ % PIPESIZE];
+kernel.asm:8698:  wakeup(&p->nwrite);  //DOC: piperead-wakeup
+kernel.asm:8705:  release(&p->lock);
+kernel.asm:8797:    if(p->state == UNUSED)
+kernel.asm:8811:    if(p->state == UNUSED)
+kernel.asm:8825:    if(p->state == UNUSED)
+kernel.asm:8832:  p->state = EMBRYO;
+kernel.asm:8835:  p->pid = nextpid++;
+kernel.asm:8841:  p->is_thread = 0; //thread_test
+kernel.asm:8845:  p->tid = 0;
+kernel.asm:8849:  p->numOfThread = 0 ;
+kernel.asm:8860:  if((p->kstack = kalloc()) == 0){
+kernel.asm:8869:    p->state = UNUSED;
+kernel.asm:8876:  sp = p->kstack + KSTACKSIZE;
+kernel.asm:8883:  sp -= sizeof *p->tf;
+kernel.asm:8885:  p->tf = (struct trapframe*)sp;
+kernel.asm:8899:  sp -= sizeof *p->context;
+kernel.asm:8901:  p->context = (struct context*)sp;
+kernel.asm:8905:  memset(p->context, 0, sizeof *p->context);
+kernel.asm:8914:  p->context->eip = (uint)forkret;
+kernel.asm:8945:  if((p->pgdir = setupkvm()) == 0)
+kernel.asm:8958:  inituvm(p->pgdir, _binary_initcode_start, (int)_binary_initcode_size);
+kernel.asm:8968:  p->sz = PGSIZE;
+kernel.asm:8971:  memset(p->tf, 0, sizeof(*p->tf));
+kernel.asm:8980:  p->tf->cs = (SEG_UCODE << 3) | DPL_USER;
+kernel.asm:8984:  p->tf->ds = (SEG_UDATA << 3) | DPL_USER;
+kernel.asm:8988:  p->tf->es = p->tf->ds;
+kernel.asm:8995:  p->tf->ss = p->tf->ds;
+kernel.asm:9002:  p->tf->eflags = FL_IF;
+kernel.asm:9006:  p->tf->esp = PGSIZE;
+kernel.asm:9010:  p->tf->eip = 0;  // beginning of initcode.S
+kernel.asm:9015:  safestrcpy(p->name, "initcode", sizeof(p->name));
+kernel.asm:9024:  p->cwd = namei("/");
+kernel.asm:9033:  p->state = RUNNABLE;
+kernel.asm:9143:  if((np->pgdir = copyuvm(proc->pgdir, proc->sz)) == 0){
+kernel.asm:9160:    kfree(np->kstack);
+kernel.asm:9167:    np->kstack = 0;
+kernel.asm:9170:    np->state = UNUSED;
+kernel.asm:9177:  np->sz = proc->sz;
+kernel.asm:9182:  np->parent = proc;
+kernel.asm:9186:  *np->tf = *proc->tf;
+kernel.asm:9197:  np->is_thread = proc->is_thread;    //thread test
+kernel.asm:9203:  np->tf->eax = 0;
+kernel.asm:9218:      np->ofile[i] = filedup(proc->ofile[i]);
+kernel.asm:9232:  *np->tf = *proc->tf;
+kernel.asm:9233:  np->is_thread = proc->is_thread;    //thread test
+kernel.asm:9235:  np->tf->eax = 0;
+kernel.asm:9242:      np->ofile[i] = filedup(proc->ofile[i]);
+kernel.asm:9243:  np->cwd = idup(proc->cwd);
+kernel.asm:9254:  safestrcpy(np->name, proc->name, sizeof(proc->name));
+kernel.asm:9266:  pid = np->pid;
+kernel.asm:9271:  // lock to force the compiler to emit the np->state write last.
+kernel.asm:9277:  np->state = RUNNABLE;
+kernel.asm:9329:  np->pgdir = proc->pgdir;
+kernel.asm:9335:  np->sz = proc->sz;
+kernel.asm:9340:  np->parent = proc;
+kernel.asm:9344:  np->is_thread = 1;
+kernel.asm:9349:  *np->tf = *proc->tf;
+kernel.asm:9362:  np->tf->eax = 0;
+kernel.asm:9377:      np->ofile[i] = filedup(proc->ofile[i]);
+kernel.asm:9391:  *np->tf = *proc->tf;
+kernel.asm:9394:  np->tf->eax = 0;
+kernel.asm:9401:      np->ofile[i] = filedup(proc->ofile[i]);
+kernel.asm:9402:  np->cwd = idup(proc->cwd);
+kernel.asm:9412://  *((uint*)(np->tf->esp)) = (uint)arg;
+kernel.asm:9413://  *((uint*)(np->tf->esp)-4) = 0xFFFFFFFF;
+kernel.asm:9414://  np->tf->esp = (np->tf->esp) - 4;
+kernel.asm:9415://  np->tf->ebp = np->tf->esp + (proc->tf->ebp - proc->tf->esp + 4 );
+kernel.asm:9417: safestrcpy(np->name, proc->name, sizeof(proc->name));
+kernel.asm:9429:  //int  pid = np->pid;
+kernel.asm:9430:  np->pid = proc->pid;
+kernel.asm:9445:      if(p->pid == proc->pid && p->is_thread == 0){
+kernel.asm:9456:           tid = ++(p->numOfThread);
+kernel.asm:9467:  np->pid = proc->pid;
+kernel.asm:9476:           tid = ++(p->numOfThread);
+kernel.asm:9481:  np->tid = tid;
+kernel.asm:9494:  np->state = RUNNABLE;
+kernel.asm:9498://  np->context->eip = (int)function;
+kernel.asm:9499://  np->tf->esp = (int)(&(ustack[1022]));
+kernel.asm:9514:  np->tf->esp  = (uint)stack + PGSIZE - stacksize;
+kernel.asm:9522://  np->tf->ebp = np->tf->esp + (proc->tf->ebp - proc->tf->esp);
+kernel.asm:9525:  *((uint*)(np->tf->esp)) = 0xFFFFFFFF; 
+kernel.asm:9530:  np->tf->esp = (np->tf->esp) -4 ;
+kernel.asm:9538:  *((uint*)(np->tf->esp)) = (uint)arg;
+kernel.asm:9545:  np->tf->esp = (np->tf->esp) -4 ;
+kernel.asm:9553://  *((uint*)(np->tf->esp)) = 0xFFFFFFFF; 
+kernel.asm:9554://  np->tf->esp = (np->tf->esp) -4;  
+kernel.asm:9555:  np->tf->ebp  = np->tf->esp + (proc->tf->ebp - proc->tf->esp) + 8 ;
+kernel.asm:9578://  cprintf("arg sent value: 0x%x \n",*((uint*)(np->tf->esp)+4));  
+kernel.asm:9579://  cprintf("arg sent value: 0x%x \n",np->context->eip); 
+kernel.asm:9580:  return np->tid;
+kernel.asm:9692:      if(p->pgdir != proc->pgdir){
+kernel.asm:9699:            p->parent = initproc;
+kernel.asm:9703:            if(p->state == ZOMBIE)
+kernel.asm:9716:      else if(p->pid == proc->pid && p->is_thread == 1){
+kernel.asm:9727:           p->parent->numOfThread--;
+kernel.asm:9733:           p->state = UNUSED;
+kernel.asm:9736:           p->pid = 0;
+kernel.asm:9739:           p->parent = 0;
+kernel.asm:9742:           p->name[0] = 0;
+kernel.asm:9745:           p->killed = 0;
+kernel.asm:9748:           kfree(p->kstack);
+kernel.asm:9755:           p->kstack=0;
+kernel.asm:9885:    if(p->parent == proc){
+kernel.asm:9891:            p->parent = initproc;
+kernel.asm:9895:            if(p->state == ZOMBIE)
+kernel.asm:9955:      if(p->parent != proc)
+kernel.asm:9964:      if(p->state == ZOMBIE){
+kernel.asm:9970:        pid = p->pid;
+kernel.asm:9974:        kfree(p->kstack);
+kernel.asm:9981:        p->kstack = 0;
+kernel.asm:9984:        freevm(p->pgdir);
+kernel.asm:9991:        p->state = UNUSED;
+kernel.asm:9994:        p->pid = 0;
+kernel.asm:9997:        p->parent = 0;
+kernel.asm:10000:        p->name[0] = 0;
+kernel.asm:10003:        p->killed = 0;
+kernel.asm:10018:      if(p->parent != proc)
+kernel.asm:10094:             if(p->parent !=proc)
+kernel.asm:10101:             if(p->tid !=tid || p->is_thread !=1)
+kernel.asm:10117:          cprintf("p->pid : %d , p->tid: %d, p->exit_status : 0x%x\n",p->pid,p->tid,(int)p->exit_status);         
+kernel.asm:10131:          if(p->state == ZOMBIE){
+kernel.asm:10137:                p->parent->numOfThread--;
+kernel.asm:10143:                tid = p->tid;
+kernel.asm:10147:                kfree(p->kstack);
+kernel.asm:10154:                p->kstack = 0;
+kernel.asm:10157:                p->state = UNUSED;
+kernel.asm:10160:                p->pid = 0;
+kernel.asm:10163:                p->parent = 0;
+kernel.asm:10166:                p->name[0] = 0;
+kernel.asm:10169:                p->killed = 0;
+kernel.asm:10172:                p->is_thread = 0;
+kernel.asm:10176:            // p->numOfThread--;
+kernel.asm:10178:                *retval = p->exit_status;
+kernel.asm:10195:             if(p->parent !=proc)
+kernel.asm:10199:             if(p->tid !=tid || p->is_thread !=1)
+kernel.asm:10211:                *retval = p->exit_status;
+kernel.asm:10278:      if(p->state != RUNNABLE)
+kernel.asm:10296:      p->state = RUNNING;
+kernel.asm:10313:      // It should have changed its p->state before coming back.
+kernel.asm:10322:      if(p->state != RUNNABLE)
+kernel.asm:10336:      // It should have changed its p->state before coming back.
+kernel.asm:10522:  // change p->state and then call sched.
+kernel.asm:10593:    if(p->state == SLEEPING && p->chan == chan)
+kernel.asm:10602:      p->state = RUNNABLE;
+kernel.asm:10614:    if(p->state == SLEEPING && p->chan == chan)
+kernel.asm:10615:      p->state = RUNNABLE;
+kernel.asm:10670:    if(p->pid == pid){
+kernel.asm:10675:      p->killed = 1;
+kernel.asm:10679:      if(p->state == SLEEPING)
+kernel.asm:10684:        p->state = RUNNABLE;
+kernel.asm:10704:        p->state = RUNNABLE;
+kernel.asm:10738:    if(p->state == UNUSED)
+kernel.asm:10744:    if(p->state >= 0 && p->state < NELEM(states) && states[p->state])
+kernel.asm:10754:      state = states[p->state];
+kernel.asm:10763:    cprintf("%d %s %s", p->pid, state, p->name);
+kernel.asm:10774:    if(p->state == SLEEPING){
+kernel.asm:10779:      getcallerpcs((uint*)p->context->ebp+2, pc);
+kernel.asm:10804:    cprintf("%d %s %s", p->pid, state, p->name);
+kernel.asm:10805:    if(p->state == SLEEPING){
+kernel.asm:10806:      getcallerpcs((uint*)p->context->ebp+2, pc);
+kernel.asm:10827:    if(p->state == UNUSED)
+kernel.asm:12447:  if(ip->type == T_DIR){
+kernel.asm:12464:  ip->nlink++;
+kernel.asm:12499:  if(dp->dev != ip->dev || dirlink(dp, name, ip->inum) < 0){
+kernel.asm:12542:  ip->nlink++;
+kernel.asm:12559:  ip->nlink--;
+kernel.asm:12596:  for(off=2*sizeof(de); off<dp->size; off+=sizeof(de)){
+kernel.asm:12626:  for(off=2*sizeof(de); off<dp->size; off+=sizeof(de)){
+kernel.asm:12738:  if(ip->nlink < 1)
+kernel.asm:12747:  if(ip->type == T_DIR && !isdirempty(ip)){
+kernel.asm:12790:  if(ip->type == T_DIR){
+kernel.asm:12795:    dp->nlink--;
+kernel.asm:12814:  ip->nlink--;
+kernel.asm:12922:    if(type == T_FILE && ip->type == T_FILE)
+kernel.asm:12942:  if((ip = ialloc(dp->dev, type)) == 0)
+kernel.asm:12964:  ip->major = major;
+kernel.asm:12968:  ip->minor = minor;
+kernel.asm:12972:  ip->nlink = 1;
+kernel.asm:12984:    dp->nlink++;  // for ".."
+kernel.asm:12996:    // No ip->nlink++ for ".": avoid cyclic ref count.
+kernel.asm:12997:    if(dirlink(ip, ".", ip->inum) < 0 || dirlink(ip, "..", dp->inum) < 0)
+kernel.asm:13024:  if(dirlink(dp, name, ip->inum) < 0)
+kernel.asm:13134:    if(ip->type == T_DIR && omode != O_RDONLY){
+kernel.asm:13423:  if(ip->type != T_DIR){
+kernel.asm:18404:  if(p->pgdir == 0)
+kernel.asm:18413:  lcr3(v2p(p->pgdir));  // switch to new address space
+halt.asm:927:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+halt.asm:931:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+halt.asm:948:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+halt.asm:959:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+halt.asm:961:  if(bp + bp->s.size == p->s.ptr){
+halt.asm:971:    bp->s.size += p->s.ptr->s.size;
+halt.asm:980:    bp->s.ptr = p->s.ptr->s.ptr;
+halt.asm:988:    bp->s.ptr = p->s.ptr;
+halt.asm:993:  if(p + p->s.size == bp){
+halt.asm:1001:    p->s.size += bp->s.size;
+halt.asm:1009:    p->s.ptr = bp->s.ptr;
+halt.asm:1016:    p->s.ptr = bp;
+halt.asm:1061:  hp->s.size = nu;
+halt.asm:1110:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+halt.asm:1114:    if(p->s.size >= nunits){
+halt.asm:1119:      if(p->s.size == nunits)
+halt.asm:1124:        prevp->s.ptr = p->s.ptr;
+halt.asm:1131:        p->s.size -= nunits;
+halt.asm:1138:        p += p->s.size;
+halt.asm:1143:        p->s.size = nunits;
+halt.asm:1176:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test2.asm:1026:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test2.asm:1030:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test2.asm:1047:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test2.asm:1058:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test2.asm:1060:  if(bp + bp->s.size == p->s.ptr){
+test2.asm:1070:    bp->s.size += p->s.ptr->s.size;
+test2.asm:1079:    bp->s.ptr = p->s.ptr->s.ptr;
+test2.asm:1087:    bp->s.ptr = p->s.ptr;
+test2.asm:1092:  if(p + p->s.size == bp){
+test2.asm:1100:    p->s.size += bp->s.size;
+test2.asm:1108:    p->s.ptr = bp->s.ptr;
+test2.asm:1115:    p->s.ptr = bp;
+test2.asm:1160:  hp->s.size = nu;
+test2.asm:1209:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test2.asm:1213:    if(p->s.size >= nunits){
+test2.asm:1218:      if(p->s.size == nunits)
+test2.asm:1223:        prevp->s.ptr = p->s.ptr;
+test2.asm:1230:        p->s.size -= nunits;
+test2.asm:1237:        p += p->s.size;
+test2.asm:1242:        p->s.size = nunits;
+test2.asm:1275:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test8.asm:1221:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test8.asm:1225:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test8.asm:1242:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test8.asm:1253:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test8.asm:1255:  if(bp + bp->s.size == p->s.ptr){
+test8.asm:1265:    bp->s.size += p->s.ptr->s.size;
+test8.asm:1274:    bp->s.ptr = p->s.ptr->s.ptr;
+test8.asm:1282:    bp->s.ptr = p->s.ptr;
+test8.asm:1287:  if(p + p->s.size == bp){
+test8.asm:1295:    p->s.size += bp->s.size;
+test8.asm:1303:    p->s.ptr = bp->s.ptr;
+test8.asm:1310:    p->s.ptr = bp;
+test8.asm:1355:  hp->s.size = nu;
+test8.asm:1404:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test8.asm:1408:    if(p->s.size >= nunits){
+test8.asm:1413:      if(p->s.size == nunits)
+test8.asm:1418:        prevp->s.ptr = p->s.ptr;
+test8.asm:1425:        p->s.size -= nunits;
+test8.asm:1432:        p += p->s.size;
+test8.asm:1437:        p->s.size = nunits;
+test8.asm:1470:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+grep.asm:1323:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+grep.asm:1327:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+grep.asm:1344:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+grep.asm:1355:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+grep.asm:1357:  if(bp + bp->s.size == p->s.ptr){
+grep.asm:1367:    bp->s.size += p->s.ptr->s.size;
+grep.asm:1376:    bp->s.ptr = p->s.ptr->s.ptr;
+grep.asm:1384:    bp->s.ptr = p->s.ptr;
+grep.asm:1389:  if(p + p->s.size == bp){
+grep.asm:1397:    p->s.size += bp->s.size;
+grep.asm:1405:    p->s.ptr = bp->s.ptr;
+grep.asm:1412:    p->s.ptr = bp;
+grep.asm:1457:  hp->s.size = nu;
+grep.asm:1506:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+grep.asm:1510:    if(p->s.size >= nunits){
+grep.asm:1515:      if(p->s.size == nunits)
+grep.asm:1520:        prevp->s.ptr = p->s.ptr;
+grep.asm:1527:        p->s.size -= nunits;
+grep.asm:1534:        p += p->s.size;
+grep.asm:1539:        p->s.size = nunits;
+grep.asm:1572:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+threadtest.asm:1071:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+threadtest.asm:1075:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+threadtest.asm:1092:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+threadtest.asm:1103:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+threadtest.asm:1105:  if(bp + bp->s.size == p->s.ptr){
+threadtest.asm:1115:    bp->s.size += p->s.ptr->s.size;
+threadtest.asm:1124:    bp->s.ptr = p->s.ptr->s.ptr;
+threadtest.asm:1132:    bp->s.ptr = p->s.ptr;
+threadtest.asm:1137:  if(p + p->s.size == bp){
+threadtest.asm:1145:    p->s.size += bp->s.size;
+threadtest.asm:1153:    p->s.ptr = bp->s.ptr;
+threadtest.asm:1160:    p->s.ptr = bp;
+threadtest.asm:1205:  hp->s.size = nu;
+threadtest.asm:1254:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+threadtest.asm:1258:    if(p->s.size >= nunits){
+threadtest.asm:1263:      if(p->s.size == nunits)
+threadtest.asm:1268:        prevp->s.ptr = p->s.ptr;
+threadtest.asm:1275:        p->s.size -= nunits;
+threadtest.asm:1282:        p += p->s.size;
+threadtest.asm:1287:        p->s.size = nunits;
+threadtest.asm:1320:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+wc.asm:1121:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+wc.asm:1125:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+wc.asm:1142:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+wc.asm:1153:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+wc.asm:1155:  if(bp + bp->s.size == p->s.ptr){
+wc.asm:1165:    bp->s.size += p->s.ptr->s.size;
+wc.asm:1174:    bp->s.ptr = p->s.ptr->s.ptr;
+wc.asm:1182:    bp->s.ptr = p->s.ptr;
+wc.asm:1187:  if(p + p->s.size == bp){
+wc.asm:1195:    p->s.size += bp->s.size;
+wc.asm:1203:    p->s.ptr = bp->s.ptr;
+wc.asm:1210:    p->s.ptr = bp;
+wc.asm:1255:  hp->s.size = nu;
+wc.asm:1304:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+wc.asm:1308:    if(p->s.size >= nunits){
+wc.asm:1313:      if(p->s.size == nunits)
+wc.asm:1318:        prevp->s.ptr = p->s.ptr;
+wc.asm:1325:        p->s.size -= nunits;
+wc.asm:1332:        p += p->s.size;
+wc.asm:1337:        p->s.size = nunits;
+wc.asm:1370:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+Binary file xv6.img matches
+mp.c:69:    if((mp = mpsearch1(p-1024, 1024)))
+mp.c:86:  if((mp = mpsearch()) == 0 || mp->physaddr == 0)
+mp.c:88:  conf = (struct mpconf*) p2v((uint) mp->physaddr);
+mp.c:150:  if(mp->imcrp){
+stressfs.asm:1067:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+stressfs.asm:1071:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+stressfs.asm:1088:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+stressfs.asm:1099:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+stressfs.asm:1101:  if(bp + bp->s.size == p->s.ptr){
+stressfs.asm:1111:    bp->s.size += p->s.ptr->s.size;
+stressfs.asm:1120:    bp->s.ptr = p->s.ptr->s.ptr;
+stressfs.asm:1128:    bp->s.ptr = p->s.ptr;
+stressfs.asm:1133:  if(p + p->s.size == bp){
+stressfs.asm:1141:    p->s.size += bp->s.size;
+stressfs.asm:1149:    p->s.ptr = bp->s.ptr;
+stressfs.asm:1156:    p->s.ptr = bp;
+stressfs.asm:1201:  hp->s.size = nu;
+stressfs.asm:1250:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+stressfs.asm:1254:    if(p->s.size >= nunits){
+stressfs.asm:1259:      if(p->s.size == nunits)
+stressfs.asm:1264:        prevp->s.ptr = p->s.ptr;
+stressfs.asm:1271:        p->s.size -= nunits;
+stressfs.asm:1278:        p += p->s.size;
+stressfs.asm:1283:        p->s.size = nunits;
+stressfs.asm:1316:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+proc.c:45:    if(p->state == UNUSED)
+proc.c:51:  p->state = EMBRYO;
+proc.c:52:  p->pid = nextpid++;
+proc.c:53:  p->is_thread = 0; //thread_test
+proc.c:54:  p->tid = 0;
+proc.c:55:  p->numOfThread = 0 ;
+proc.c:59:  if((p->kstack = kalloc()) == 0){
+proc.c:60:    p->state = UNUSED;
+proc.c:63:  sp = p->kstack + KSTACKSIZE;
+proc.c:66:  sp -= sizeof *p->tf;
+proc.c:67:  p->tf = (struct trapframe*)sp;
+proc.c:74:  sp -= sizeof *p->context;
+proc.c:75:  p->context = (struct context*)sp;
+proc.c:76:  memset(p->context, 0, sizeof *p->context);
+proc.c:77:  p->context->eip = (uint)forkret;
+proc.c:92:  if((p->pgdir = setupkvm()) == 0)
+proc.c:94:  inituvm(p->pgdir, _binary_initcode_start, (int)_binary_initcode_size);
+proc.c:95:  p->sz = PGSIZE;
+proc.c:96:  memset(p->tf, 0, sizeof(*p->tf));
+proc.c:97:  p->tf->cs = (SEG_UCODE << 3) | DPL_USER;
+proc.c:98:  p->tf->ds = (SEG_UDATA << 3) | DPL_USER;
+proc.c:99:  p->tf->es = p->tf->ds;
+proc.c:100:  p->tf->ss = p->tf->ds;
+proc.c:101:  p->tf->eflags = FL_IF;
+proc.c:102:  p->tf->esp = PGSIZE;
+proc.c:103:  p->tf->eip = 0;  // beginning of initcode.S
+proc.c:105:  safestrcpy(p->name, "initcode", sizeof(p->name));
+proc.c:106:  p->cwd = namei("/");
+proc.c:108:  p->state = RUNNABLE;
+proc.c:145:  if((np->pgdir = copyuvm(proc->pgdir, proc->sz)) == 0){
+proc.c:146:    kfree(np->kstack);
+proc.c:147:    np->kstack = 0;
+proc.c:148:    np->state = UNUSED;
+proc.c:151:  np->sz = proc->sz;
+proc.c:152:  np->parent = proc;
+proc.c:153:  *np->tf = *proc->tf;
+proc.c:154:  np->is_thread = proc->is_thread;    //thread test
+proc.c:156:  np->tf->eax = 0;
+proc.c:160:      np->ofile[i] = filedup(proc->ofile[i]);
+proc.c:161:  np->cwd = idup(proc->cwd);
+proc.c:163:  safestrcpy(np->name, proc->name, sizeof(proc->name));
+proc.c:165:  pid = np->pid;
+proc.c:167:  // lock to force the compiler to emit the np->state write last.
+proc.c:169:  np->state = RUNNABLE;
+proc.c:191:  np->pgdir = proc->pgdir;
+proc.c:193:  np->sz = proc->sz;
+proc.c:194:  np->parent = proc;
+proc.c:195:  np->is_thread = 1;
+proc.c:197:  *np->tf = *proc->tf;
+proc.c:200:  np->tf->eax = 0;
+proc.c:204:      np->ofile[i] = filedup(proc->ofile[i]);
+proc.c:205:  np->cwd = idup(proc->cwd);
+proc.c:207: // lock to force the compiler to emit the np->state write last.
+proc.c:208:  //inp->kstack = ;
+proc.c:211://  np->tf->esp = (uint)(stack+PGSIZE-4);
+proc.c:212://  *((uint*)(np->tf->esp)) = (uint)arg;
+proc.c:213://  *((uint*)(np->tf->esp)-4) = 0xFFFFFFFF;
+proc.c:214://  np->tf->esp = (np->tf->esp) - 4;
+proc.c:215://  np->tf->ebp = np->tf->esp + (proc->tf->ebp - proc->tf->esp + 4 );
+proc.c:217: safestrcpy(np->name, proc->name, sizeof(proc->name));
+proc.c:219:  //int  pid = np->pid;
+proc.c:220:  np->pid = proc->pid;
+proc.c:226:      if(p->pid == proc->pid && p->is_thread == 0){
+proc.c:227:           tid = ++(p->numOfThread);
+proc.c:232:  np->tid = tid;
+proc.c:238:  np->state = RUNNABLE;
+proc.c:241://  np->context->eip = (int)function;
+proc.c:242://  np->tf->esp = (int)(&(ustack[1022]));
+proc.c:247:  np->tf->esp  = (uint)stack + PGSIZE - stacksize;
+proc.c:249://  np->tf->ebp = np->tf->esp + (proc->tf->ebp - proc->tf->esp);
+proc.c:252:  *((uint*)(np->tf->esp)) = 0xFFFFFFFF; 
+proc.c:253:  np->tf->esp = (np->tf->esp) -4 ;
+proc.c:254:  *((uint*)(np->tf->esp)) = (uint)arg;
+proc.c:255:  np->tf->esp = (np->tf->esp) -4 ;
+proc.c:256://  *((uint*)(np->tf->esp)) = 0xFFFFFFFF; 
+proc.c:257://  np->tf->esp = (np->tf->esp) -4;  
+proc.c:258:  np->tf->ebp  = np->tf->esp + (proc->tf->ebp - proc->tf->esp) + 8 ;
+proc.c:261://  cprintf("arg sent value: 0x%x \n",*((uint*)(np->tf->esp)+4));  
+proc.c:262://  cprintf("arg sent value: 0x%x \n",np->context->eip); 
+proc.c:263:  return np->tid;
+proc.c:301:      if(p->pgdir != proc->pgdir){
+proc.c:302:            p->parent = initproc;
+proc.c:303:            if(p->state == ZOMBIE)
+proc.c:306:      else if(p->pid == proc->pid && p->is_thread == 1){
+proc.c:307:           p->parent->numOfThread--;
+proc.c:308:           p->state = UNUSED;
+proc.c:309:           p->pid = 0;
+proc.c:310:           p->parent = 0;
+proc.c:311:           p->name[0] = 0;
+proc.c:312:           p->killed = 0;
+proc.c:313:           kfree(p->kstack);
+proc.c:314:           p->kstack=0;
+proc.c:359:    if(p->parent == proc){
+proc.c:360:            p->parent = initproc;
+proc.c:361:            if(p->state == ZOMBIE)
+proc.c:386:      if(p->parent != proc)
+proc.c:389:      if(p->state == ZOMBIE){
+proc.c:391:        pid = p->pid;
+proc.c:392:        kfree(p->kstack);
+proc.c:393:        p->kstack = 0;
+proc.c:394:        freevm(p->pgdir);
+proc.c:395:        p->state = UNUSED;
+proc.c:396:        p->pid = 0;
+proc.c:397:        p->parent = 0;
+proc.c:398:        p->name[0] = 0;
+proc.c:399:        p->killed = 0;
+proc.c:433:             if(p->parent !=proc)
+proc.c:435:             if(p->tid !=tid || p->is_thread !=1)
+proc.c:443:          cprintf("p->pid : %d , p->tid: %d, p->exit_status : 0x%x\n",p->pid,p->tid,(int)p->exit_status);         
+proc.c:444:          if(p->state == ZOMBIE){
+proc.c:446:                p->parent->numOfThread--;
+proc.c:447:                tid = p->tid;
+proc.c:448:                kfree(p->kstack);
+proc.c:449:                p->kstack = 0;
+proc.c:450:                p->state = UNUSED;
+proc.c:451:                p->pid = 0;
+proc.c:452:                p->parent = 0;
+proc.c:453:                p->name[0] = 0;
+proc.c:454:                p->killed = 0;
+proc.c:455:                p->is_thread = 0;
+proc.c:456:            // p->numOfThread--;
+proc.c:458:                *retval = p->exit_status;
+proc.c:498:      if(p->state != RUNNABLE)
+proc.c:506:      p->state = RUNNING;
+proc.c:511:      // It should have changed its p->state before coming back.
+proc.c:582:  // change p->state and then call sched.
+proc.c:616:    if(p->state == SLEEPING && p->chan == chan)
+proc.c:617:      p->state = RUNNABLE;
+proc.c:639:    if(p->pid == pid){
+proc.c:640:      p->killed = 1;
+proc.c:642:      if(p->state == SLEEPING)
+proc.c:643:        p->state = RUNNABLE;
+proc.c:673:    if(p->state == UNUSED)
+proc.c:675:    if(p->state >= 0 && p->state < NELEM(states) && states[p->state])
+proc.c:676:      state = states[p->state];
+proc.c:679:    cprintf("%d %s %s", p->pid, state, p->name);
+proc.c:680:    if(p->state == SLEEPING){
+proc.c:681:      getcallerpcs((uint*)p->context->ebp+2, pc);
+sh.asm:2531:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+sh.asm:2535:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+sh.asm:2552:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+sh.asm:2563:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+sh.asm:2565:  if(bp + bp->s.size == p->s.ptr){
+sh.asm:2575:    bp->s.size += p->s.ptr->s.size;
+sh.asm:2584:    bp->s.ptr = p->s.ptr->s.ptr;
+sh.asm:2592:    bp->s.ptr = p->s.ptr;
+sh.asm:2597:  if(p + p->s.size == bp){
+sh.asm:2605:    p->s.size += bp->s.size;
+sh.asm:2613:    p->s.ptr = bp->s.ptr;
+sh.asm:2620:    p->s.ptr = bp;
+sh.asm:2665:  hp->s.size = nu;
+sh.asm:2714:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+sh.asm:2718:    if(p->s.size >= nunits){
+sh.asm:2723:      if(p->s.size == nunits)
+sh.asm:2728:        prevp->s.ptr = p->s.ptr;
+sh.asm:2735:        p->s.size -= nunits;
+sh.asm:2742:        p += p->s.size;
+sh.asm:2747:        p->s.size = nunits;
+sh.asm:2780:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+ln.asm:968:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+ln.asm:972:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+ln.asm:989:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+ln.asm:1000:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+ln.asm:1002:  if(bp + bp->s.size == p->s.ptr){
+ln.asm:1012:    bp->s.size += p->s.ptr->s.size;
+ln.asm:1021:    bp->s.ptr = p->s.ptr->s.ptr;
+ln.asm:1029:    bp->s.ptr = p->s.ptr;
+ln.asm:1034:  if(p + p->s.size == bp){
+ln.asm:1042:    p->s.size += bp->s.size;
+ln.asm:1050:    p->s.ptr = bp->s.ptr;
+ln.asm:1057:    p->s.ptr = bp;
+ln.asm:1102:  hp->s.size = nu;
+ln.asm:1151:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+ln.asm:1155:    if(p->s.size >= nunits){
+ln.asm:1160:      if(p->s.size == nunits)
+ln.asm:1165:        prevp->s.ptr = p->s.ptr;
+ln.asm:1172:        p->s.size -= nunits;
+ln.asm:1179:        p += p->s.size;
+ln.asm:1184:        p->s.size = nunits;
+ln.asm:1217:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+symlink.patch:22:     ip = idup(cp->cwd);
+ls.c:13:  for(p=path+strlen(path); p >= path && *p != '/'; p--)
+cat.asm:1053:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+cat.asm:1057:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+cat.asm:1074:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+cat.asm:1085:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+cat.asm:1087:  if(bp + bp->s.size == p->s.ptr){
+cat.asm:1097:    bp->s.size += p->s.ptr->s.size;
+cat.asm:1106:    bp->s.ptr = p->s.ptr->s.ptr;
+cat.asm:1114:    bp->s.ptr = p->s.ptr;
+cat.asm:1119:  if(p + p->s.size == bp){
+cat.asm:1127:    p->s.size += bp->s.size;
+cat.asm:1135:    p->s.ptr = bp->s.ptr;
+cat.asm:1142:    p->s.ptr = bp;
+cat.asm:1187:  hp->s.size = nu;
+cat.asm:1236:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+cat.asm:1240:    if(p->s.size >= nunits){
+cat.asm:1245:      if(p->s.size == nunits)
+cat.asm:1250:        prevp->s.ptr = p->s.ptr;
+cat.asm:1257:        p->s.size -= nunits;
+cat.asm:1264:        p += p->s.size;
+cat.asm:1269:        p->s.size = nunits;
+cat.asm:1302:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test7.asm:1100:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test7.asm:1104:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test7.asm:1121:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+test7.asm:1132:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+test7.asm:1134:  if(bp + bp->s.size == p->s.ptr){
+test7.asm:1144:    bp->s.size += p->s.ptr->s.size;
+test7.asm:1153:    bp->s.ptr = p->s.ptr->s.ptr;
+test7.asm:1161:    bp->s.ptr = p->s.ptr;
+test7.asm:1166:  if(p + p->s.size == bp){
+test7.asm:1174:    p->s.size += bp->s.size;
+test7.asm:1182:    p->s.ptr = bp->s.ptr;
+test7.asm:1189:    p->s.ptr = bp;
+test7.asm:1234:  hp->s.size = nu;
+test7.asm:1283:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+test7.asm:1287:    if(p->s.size >= nunits){
+test7.asm:1292:      if(p->s.size == nunits)
+test7.asm:1297:        prevp->s.ptr = p->s.ptr;
+test7.asm:1304:        p->s.size -= nunits;
+test7.asm:1311:        p += p->s.size;
+test7.asm:1316:        p->s.size = nunits;
+test7.asm:1349:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+pipe.c:32:  p->readopen = 1;
+pipe.c:33:  p->writeopen = 1;
+pipe.c:34:  p->nwrite = 0;
+pipe.c:35:  p->nread = 0;
+pipe.c:36:  initlock(&p->lock, "pipe");
+pipe.c:61:  acquire(&p->lock);
+pipe.c:63:    p->writeopen = 0;
+pipe.c:64:    wakeup(&p->nread);
+pipe.c:66:    p->readopen = 0;
+pipe.c:67:    wakeup(&p->nwrite);
+pipe.c:69:  if(p->readopen == 0 && p->writeopen == 0){
+pipe.c:70:    release(&p->lock);
+pipe.c:73:    release(&p->lock);
+pipe.c:82:  acquire(&p->lock);
+pipe.c:84:    while(p->nwrite == p->nread + PIPESIZE){  //DOC: pipewrite-full
+pipe.c:85:      if(p->readopen == 0 || proc->killed){
+pipe.c:86:        release(&p->lock);
+pipe.c:89:      wakeup(&p->nread);
+pipe.c:90:      sleep(&p->nwrite, &p->lock);  //DOC: pipewrite-sleep
+pipe.c:92:    p->data[p->nwrite++ % PIPESIZE] = addr[i];
+pipe.c:94:  wakeup(&p->nread);  //DOC: pipewrite-wakeup1
+pipe.c:95:  release(&p->lock);
+pipe.c:104:  acquire(&p->lock);
+pipe.c:105:  while(p->nread == p->nwrite && p->writeopen){  //DOC: pipe-empty
+pipe.c:107:      release(&p->lock);
+pipe.c:110:    sleep(&p->nread, &p->lock); //DOC: piperead-sleep
+pipe.c:113:    if(p->nread == p->nwrite)
+pipe.c:115:    addr[i] = p->data[p->nread++ % PIPESIZE];
+pipe.c:117:  wakeup(&p->nwrite);  //DOC: piperead-wakeup
+pipe.c:118:  release(&p->lock);
+umalloc.c:30:  for(p = freep; !(bp > p && bp < p->s.ptr); p = p->s.ptr)
+umalloc.c:31:    if(p >= p->s.ptr && (bp > p || bp < p->s.ptr))
+umalloc.c:33:  if(bp + bp->s.size == p->s.ptr){
+umalloc.c:34:    bp->s.size += p->s.ptr->s.size;
+umalloc.c:35:    bp->s.ptr = p->s.ptr->s.ptr;
+umalloc.c:37:    bp->s.ptr = p->s.ptr;
+umalloc.c:38:  if(p + p->s.size == bp){
+umalloc.c:39:    p->s.size += bp->s.size;
+umalloc.c:40:    p->s.ptr = bp->s.ptr;
+umalloc.c:42:    p->s.ptr = bp;
+umalloc.c:58:  hp->s.size = nu;
+umalloc.c:74:  for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+umalloc.c:75:    if(p->s.size >= nunits){
+umalloc.c:76:      if(p->s.size == nunits)
+umalloc.c:77:        prevp->s.ptr = p->s.ptr;
+umalloc.c:79:        p->s.size -= nunits;
+umalloc.c:80:        p += p->s.size;
+umalloc.c:81:        p->s.size = nunits;
+sysfile.c:131:  if(ip->type == T_DIR){
+sysfile.c:137:  ip->nlink++;
+sysfile.c:144:  if(dp->dev != ip->dev || dirlink(dp, name, ip->inum) < 0){
+sysfile.c:157:  ip->nlink--;
+sysfile.c:171:  for(off=2*sizeof(de); off<dp->size; off+=sizeof(de)){
+sysfile.c:208:  if(ip->nlink < 1)
+sysfile.c:210:  if(ip->type == T_DIR && !isdirempty(ip)){
+sysfile.c:218:  if(ip->type == T_DIR){
+sysfile.c:219:    dp->nlink--;
+sysfile.c:224:  ip->nlink--;
+sysfile.c:252:    if(type == T_FILE && ip->type == T_FILE)
+sysfile.c:258:  if((ip = ialloc(dp->dev, type)) == 0)
+sysfile.c:262:  ip->major = major;
+sysfile.c:263:  ip->minor = minor;
+sysfile.c:264:  ip->nlink = 1;
+sysfile.c:268:    dp->nlink++;  // for ".."
+sysfile.c:270:    // No ip->nlink++ for ".": avoid cyclic ref count.
+sysfile.c:271:    if(dirlink(ip, ".", ip->inum) < 0 || dirlink(ip, "..", dp->inum) < 0)
+sysfile.c:275:  if(dirlink(dp, name, ip->inum) < 0)
+sysfile.c:308:    if(ip->type == T_DIR && omode != O_RDONLY){
+sysfile.c:382:  if(ip->type != T_DIR){
